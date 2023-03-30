@@ -1,0 +1,12 @@
+@charset: UTF-8;
+
+section#conteudo {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+iframe#frame{
+	width: 380px;
+	height: 280px;
+	border: none;
+}
