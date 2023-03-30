@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Criando CPFs</title>
+</head>
+<body>
+	<script type="text/javascript">
+		<!--
+		function Verificar_CPF() {
+			/* Definição das Variáveis */
+			var menos = 10;
+			var valor = 0;
+			var format=''; // serve para retonar o falor já formatado.
+			var resto;
+			var num;
+	
+			/* Entrada de Valores */
+			num = document.formtest.f_valor.value;
+
+		/*  
+			var op;
+			op = document.formtest.opc.value;
+			
+			if (op == 1) {
+				if (num==9) {
+					for (c = 0; c <= 9; c++) {
+						//document.fromtest.resut.value = "ok";
+					}
+				} else {
+					alert("Você não colocou a quantidade correta!");
+				}
+			} else {
+				if () {
+					for (c = 0; c <= 11; c++) {
+					
+					}
+				} else {
+					alert("Você não digitou a quantidade correta!");
+				}
+			}
+		*/
+			/* Processamento de Dados */
+			for (c=0; c < 9; c++) {
+				valor += (menos * parseInt(num[c]));
+				menos--;
+			}
+
+			resto = valor % 11;
+
+			if (resto < 2) {
+				num += 0;
+			} else {
+				num += (11 - resto);
+			}
+
+			menos = 11;
+			valor = 0;
+
+			for (c=0; c < 10; c++) {
+				valor += (menos * parseInt(num[c]));
+				menos--;
+			}
+
+			resto = valor % 11;
+
+			if (valor < 2) {
+				num += 0;
+			} else {
+				num += (11 - resto);
+			}
+
+			for (c=0; c < 11; c++) {
+				format += num[c];
+				if (c == 2 | c == 5) {
+					format += '.';
+				} else if (c == 8) {
+					format += '-';
+				}
+			}
+
+			/* Saída de Dados */
+			document.formtest.resut.value = format;
+		}
+
+		//-->
+	</script>
+
+	<!--
+	Escolha uma opção:
+	<select name="opc"> 
+		<option value="1">Verificar CPF</option>
+		<option value="3">Criar CPF aleatório</option> 
+	</select> -->
+	<form name="formtest">
+	Digite o CPF : <input type="text" name="f_valor" maxlength="9" placeholder="dígite 9 primeiros valores"/>
+	<input type="button" name="" value="Verificar"onclick="Verificar_CPF()"/><br/><br/>
+	Valor Retorno: <input type="text" name="resut">
+</form> 
+</body> 
+</html>

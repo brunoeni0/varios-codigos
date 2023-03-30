@@ -1,0 +1,17 @@
+/* CSS Document */
+
+p {
+	text-indent: 50px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+/*Para caixa alta (tudo maiúsculo)*/
+p.uppercase{text-transform:uppercase;}
+
+/*Para caixa baixa (tudo minúsculo)*/
+p.lowercase {text-transform:lowercase;}
+
+/*Para capitular a primeira letra (a primeira letra maiúscula e as demais minúsculas de Cada Palavra)*/
+p.capitalize {text-transform:capitalize;}
+
+a{color:#0000ff; text-decoration: underline;}

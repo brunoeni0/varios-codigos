@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js03_comentario04.html</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta charset="utf-8">
+</head>
+<body>
+	<h3>Programa de Boas Vindas!</h3>
+
+	<script lagangue="JavaScript">
+		<!--
+		/* Objetivo: Capturar o nome do usuário e aprensentar uma saudação personalizada
+		   Definir as variáveis com o prefixo js_
+		   Para os elementos de Entradas: método prompt do objeto window
+		   Para os elementos de Saída: método write do objeto document
+		*/
+
+		/* Definição de Variáveis */
+		var js_nome;
+
+		/* Entrada de dados */
+		js_nome = window.prompt('Entre com seu nome:', 'Digite seu nome nesta caixa');
+
+		/* Saída de dados */
+		document.write('Ol\u00e1 ' + js_nome + ' Seja Bem Vindo!'); //Mensagem de Saudação Personalizada
+
+		//-->
+	</script>
+</body>
+</html>

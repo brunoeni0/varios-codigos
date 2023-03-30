@@ -1,0 +1,29 @@
+/* CSS Document */
+
+body {
+
+}
+
+/* Que também pode ser escrito de forma resumida: */
+
+body {
+	/* margin: top right bottotm left */
+	margin: 100px 40px 10px 70px;
+}
+
+h1 {
+	background: orange;
+	padding: 10px 10px 10px 30px;
+}
+
+p {
+	background: yellow;
+	padding-left: 50px;
+}
+
+div.box {
+	width: 200px;
+	height: 500px;
+	border: 1px solid black;
+	background: orange;
+}

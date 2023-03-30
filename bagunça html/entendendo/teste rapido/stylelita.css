@@ -1,0 +1,14 @@
+@charset: "utf-8";
+
+body {
+	background-color: #cecece;
+}
+
+main {
+	background-color: #ffffff;
+	box-sizing: boder-box;
+	width: 50%;
+	margin: -10px auto auto auto;
+	padding: 10px;
+
+}

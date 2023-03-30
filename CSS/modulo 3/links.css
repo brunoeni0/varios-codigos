@@ -1,0 +1,35 @@
+/* CSS Document */
+
+a {color: #0000ff;}
+
+/* Para links não visitados */
+
+a:link {color:#FF0000}
+
+/* Para links já visitados */
+
+a:visited {color:#00FF00;}
+
+/* Ao passar o mouse sobre os links */
+
+a:hover {color:#FF00FF;}
+
+/* Links ativos */
+
+a:active {color:#0000FF;}
+
+span#red {
+	color: #FF0000;
+}
+
+span#green {
+	color:#00FF00;
+}
+		
+span#pink {
+	color:#FF00FF;
+}
+
+span#blue {
+	color:0000FF;
+}

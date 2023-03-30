@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+	<html lang="pt-br"/>
+	<meta charset="utf-8">
+	<title>Teste javascript</title>
+	<script>
+		var quebrada = false;
+		function mudarlampada(tipo) {
+			if (!quebrada) {
+				document.getElementById("luz").src = "../Não mexar/curso-html5-pacote01/projeto-glass-html5/_imagens/"+tipo+".jpg";
+				if (tipo == 'lampada-quebrada'){
+					quebrada = true;
+				}
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>Acender a lâmpada</h1>
+	<img src="..\projeto-glass-html5\_imagens/lampada-apagada.jpg" id="luz" onmousemove="mudarlampada('lampada-acesa')" onmouseout="mudarlampada('lampada-apagada')" onclick="mudarlampada('lampada-quebrada')"/>
+</body>

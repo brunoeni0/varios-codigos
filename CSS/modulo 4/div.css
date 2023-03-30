@@ -1,0 +1,10 @@
+/* CSS Document */
+
+#imagem {
+	float: left;
+	width: 100px;
+}
+
+p {
+	clear: both;
+}

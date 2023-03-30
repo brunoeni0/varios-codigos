@@ -1,0 +1,11 @@
+texto {
+	cor: vermelho;
+	font: Arial;
+	margem 50px;
+}
+
+imagem {
+	alinhamento direita;
+	borda: azul;
+	margem: 50px;
+}

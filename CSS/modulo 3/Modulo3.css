@@ -1,0 +1,12 @@
+#Modulo03 {
+	color: #0000FF;
+	background-color: red;
+	font-family: arial;
+	font-size: 14px;
+	text-align: justify;
+	margin: 10px;
+	padding: 5px;
+	height: 600px;
+	width: 800px;
+	pasition: absolute;
+}

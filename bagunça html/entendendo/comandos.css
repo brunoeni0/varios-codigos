@@ -1,0 +1,22 @@
+div {
+	display: block;
+	background-color: rgb(120,250,250);
+	height: 750px;
+	width: 1300px;
+	margin-left: 250px;
+	margin-top: 50px;
+}
+
+body {
+	background-color: red;
+	margin: 0px;
+}
+
+div span {
+	background-color: green;
+	display:block;
+	height: 100px;
+	width: 300px;
+	margin-left: 500px;
+	margin-top: 300px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="organização.css"/>
+</head>
+<script>
+	luz = Math.ceil(Math.random() * 3);
+	function acesa(n){
+		if (luz == n) {
+			document.getElementById("luz"+ n).src="../../../projeto-glass-html5/_imagens/lampada-acesa.jpg";
+			stop = true;
+		}
+		else {
+			document.getElementById("luz"+ n).src="../../../projeto-glass-html5/_imagens/lampada-quebrada.jpg";
+		}
+	}
+	function reiniciar() {
+		for (var c = 1; c <= 3; c++) {
+			document.getElementById("luz"+ c).src="../../../projeto-glass-html5/_imagens/lampada-apagada.jpg";
+		}
+		luz = Math.ceil(Math.random() * 3);
+	}
+</script>
+<body>
+	<h1 id="letras"> Escolha uma lâmpada</h1>
+	<img src="../../../projeto-glass-html5\_imagens/lampada-apagada.jpg" id="luz1" onclick="acesa(1)">
+	<img src="../../../projeto-glass-html5\_imagens/lampada-apagada.jpg" id="luz2" onclick="acesa(2)">
+	<img src="../../../projeto-glass-html5\_imagens/lampada-apagada.jpg" id="luz3" onclick="acesa(3)">
+	<h2 id="resete" onclick="reiniciar()">Reniciar o Jogo</h2>
+</body>
+</html>

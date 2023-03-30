@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title> Curso em video </title>
+		<style> 
+			h1{
+			  	font-family: Arial;
+			  	font-size: 30pt;
+			  	color: red;
+			  	text-shadow: 2px 2px 2px black;
+			  }
+		</style>
+	</head>
+	<body>
+		<h1> Bom Dia,mundo! </h1>
+		<h2> otimo dia hoje! </h2>
+		<h1> Funcionado ok. </h1>
+	</body>
+</html>

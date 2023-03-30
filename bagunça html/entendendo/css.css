@@ -1,0 +1,21 @@
+@UTF-8;
+
+nav#menu {
+	position: relative;
+	margin: 50px;
+}
+
+li {
+	margin: 40px;
+	display: inline;
+}
+
+a {
+	left: 500px;
+	top: 30px;
+	padding: 20px;
+	background: #dfdfff;
+	color: red;
+}
+
+

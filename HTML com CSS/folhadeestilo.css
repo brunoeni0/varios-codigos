@@ -1,0 +1,20 @@
+p {color: green; font-size: 30px;}
+body {background: MintCream;}
+
+ul#tipo1ul {
+	list-style: circle;
+	list-style-position: inside;
+}
+
+ul#tipo2ul {
+	list-style: square;
+	list-style-position: outside;
+}
+
+ul#tipo3ul {
+	list-style: upper-roman;
+}
+
+ul#tipo4ul {
+	list-style: lower-alpha;
+}
